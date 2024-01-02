@@ -1,0 +1,26 @@
+For Downloading and Installing Ledger in my system:-
+
+Precondition:
+1. Go to https://github.com/LF-Engineering/ledger-ui/tree/pipelinandfixes
+2. Click on Ledger-App.zip
+3. Click on Download button.
+4. Extract the file in same folder and install npm in the same extracted file.
+
+Steps:
+1. cd..
+2. cd..
+3. cd .\Projects\MV2\Ledger-App\
+or just type cd space click tab then next arrow from keboard again tab and similar till you reach in the folder.
+4. npm install
+5. npm run server
+Wait for few seconds until you see listening to localhost
+6. Browse to http://localhost:3000
+
+Steps for running already installed:
+1. cd..
+2. cd..
+3. cd .\Projects\MV2\Ledger-App\
+or just type cd space click tab then next arrow from keboard again tab and similr till you reach in the folder.
+4. npm run server
+Wait for few seconds until you see listening to localhost
+5. Browse to http://localhost:3000
