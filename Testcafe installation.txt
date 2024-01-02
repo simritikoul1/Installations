@@ -1,0 +1,70 @@
+TestCafe Free Version installation steps(for Windows):
+
+
+i) Prerequisites steps:
+
+Download Visual studio code(or any other code editor/text editor whichever you are comfortable with).
+
+For visual studio : https://code.visualstudio.com/download
+
+	a)	Download node.js LTS version
+			https://nodejs.org/en/download/
+
+	b)	The npm get installed with this version
+
+		You can verify from the nodejs from below link: https://phoenixnap.com/kb/install-node-js-npm-on-windows
+
+	c)	check if node.js and npm is installed properly(check the version installed):
+			Open command prompt ant type
+			-> node -v
+			-> npm -v
+
+1. Create a clone of project from github:
+2. Open github project directory.
+3. Open cmd and type following commands:
+	Make a folder in your C drive.
+		->mkdir folder_name
+	Goto created folder with following cmd
+		->cd folder_name
+ 	Enter following cmd to clone
+		->git clone https://github.com/directory_name.git
+	Enter your github email address and password.
+
+			If npm is not installed use yarn 
+4.   Download yarn
+	Open cmd and type following commands:
+	-> yarn install
+	-> yarn run dev
+
+ii) Steps for installing testcafe:
+
+1. Open visual studio code(/command prompt).
+2. Open terminal in visual studio code.
+		view=>terminal
+		Type (g=>global):
+	->npm install -g testcafe
+If device does not allow the access to run then on cmd type the following command:
+-> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+	(give the permission to access).
+
+Now installed and ready to run:
+Type simple script to search google
+
+/*
+	import {Selector} from 'testcafe';
+fixture('testcafe demo')
+    		.page('https://www.google.com')
+test('my-first-test', async t => {
+    		await t
+  		.typeText('input[name="q"]', 'testcafe')
+ 		.click(Selector('#tsf').find('[name="q"]'))
+ 		.pressKey('enter')
+});
+*/
+Save this file to .js extension.
+
+And run command on terminal(in powershell)
+-> testcafe chrome .\file_name.js
+
+And it will run that file on the testcafe and will show passed in the terminal.
+Keep practicing....
