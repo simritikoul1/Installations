@@ -1,4 +1,4 @@
-TestCafe Free Version installation steps(for Windows):
+##TestCafe Free Version installation steps(for Windows):
 
 
 i) Prerequisites steps:
