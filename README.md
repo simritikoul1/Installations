@@ -1,2 +1,2 @@
 # Installations
-Installation steps for various applications :thought_balloon:
+Installation :thought_balloon: steps for various applications :computer:
