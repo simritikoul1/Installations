@@ -1,0 +1,73 @@
+// Try following below steps and let me know if you face any issue
+
+1. Open Cmd
+2. Type in cmd following cmd to create new folder
+	mkdir foldername
+3. Goto created folder with following cmd
+	cd foldername
+4. Enter following cmd to clone
+	git clone https://github.com/Org_name/Repo_name.git
+Enter your github email address and password
+
+or
+
+Let me know if the above works otherwise try entering user name before repo
+git clone https://username@github.com//jobspring.git
+
+///////////////////////////////////////////////////////////////////////////////////////
+To get access of execution in you pc:
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Windows\system32> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help
+topic at https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
+PS C:\Windows\system32>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+To Pull latest code
+
+cd OrganizationName
+cd RepositoryName
+git pull origin master
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+To Clone other repo
+
+1. open cmd
+
+2. It will go straight to system 32
+
+3. Get out of there by typing following command in cmd:
+	cd ..
+	cd ..
+
+4. Enter in FolderName:
+	cd FolderName
+
+5. Make another folder for otherproject.
+	mkdir NewFolderName
+
+6. Enter into that folder to clone all the repo data.
+	cd FolderName
+
+7. Copy the git url from github:
+	- go to that repository.
+	- on right you will see 'code' in green above all folders and side to master.
+	- click on down arrow from that.
+	- you will see http link, copy that.
+
+8. To clone that in OrgName/RepoName folder:
+	git clone https://github.com/OrgName/RepoName.git
+
+It Will clone the repo.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
